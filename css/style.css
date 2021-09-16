@@ -1,0 +1,117 @@
+/*font-family: 'Roboto', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #5CBAFF;
+    padding: 30px 0;
+    border: 2px shadow #5CBAFF;
+}
+header nav{
+
+width: 40%;
+
+margin: auto;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+header nav ul li{
+
+}
+header nav ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+font-size: 15px;
+
+text-transform: uppercase;
+}
+header nav ul li a img{
+    
+}
+
+.content{
+    height: 90vh;
+    display: flex;
+}
+.featured-image{
+    width: 40%;
+    background-color: #5CBAFF;
+    text-align: center;
+    padding: 160px 0px;
+
+}
+.featured-image img{
+
+}
+
+.contact-form{
+    width: 60%;
+    background-color: #0093FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+   width: 35%;
+}
+.contact h1{
+    color: #fff;
+    font-size:30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family:'Roboto', sans-serif;
+}
+.contact p{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact h5{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.contact form{
+
+}
+.contact form input{
+    width: 100%;
+    margin-top: 12px;
+    padding: 14px 0 13px 13px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+}
+.contact form input[type="submit"]{
+    width: auto;
+    padding: 0;
+    padding: 10px 11px 10px 12px;
+    color: #5CBAFF;
+}
+span{
+}
+.links{
+    width: 100%;
+}
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+.links ul li{
+    margin-top: 20px 0;
+}
